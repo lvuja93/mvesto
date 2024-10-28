@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/martiniv/repositories/mvesto/public_html
-    - /mvesto index.html $DEPLOYPATH
-    - /mvesto style.css $DEPLOYPATH
-    - /mvesto -R assets $DEPLOYPATH
+    - export DEPLOYPATH=/home/martiniv/repositories/mvesto
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
