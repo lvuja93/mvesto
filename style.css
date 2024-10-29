@@ -1,20 +1,22 @@
-.navbar {
+/*.navbar {
     color: #f5821f;
 
 
-}
+}*/
 
 .nav-link {
-    color: #331a03;
+    color: white;
 }
 
 .dropdown-item {
-    color: #331a03
+    color: white;
+    font-weight: bolder;
+
 }
 
-#navigacija {
+/*#navigacija {
     background-color: #F1E1D1;
-}
+}*/
 
 .social {
     height: 40px;
@@ -24,4 +26,42 @@
 
 .instagram {
     color: blue;
+}
+
+.bg-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.dropdown-menu:hover {
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.dropdown-menu {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-link {
+    font-weight: bolder;
+}
+
+.logo {
+    height: 10vh;
+
 }
